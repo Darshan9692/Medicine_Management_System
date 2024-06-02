@@ -26,14 +26,18 @@ module.exports = {
       },
       date: {
         type: Sequelize.DATE,
-        allowNull:false
+        allowNull: false
+      },
+      time: {
+        type: Sequelize.TIME,
+        allowNull: false
       },
       status: {
         type: Sequelize.BOOLEAN,
-        defaultValue:false
+        defaultValue: false
       },
       createdAt: {
-        defaultValue:Sequelize.fn("NOW"),
+        defaultValue: Sequelize.fn("NOW"),
         type: Sequelize.DATE
       },
       updatedAt: {

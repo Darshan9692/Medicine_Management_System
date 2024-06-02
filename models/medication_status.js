@@ -10,25 +10,25 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      models.user.hasMany(medication_status,{
-        foreignKey:'user_id',
-        onDelete:'SET NULL',
-        onUpdate:'SET NULL'
+      models.user.hasMany(medication_status, {
+        foreignKey: 'user_id',
+        onDelete: 'SET NULL',
+        onUpdate: 'SET NULL'
       })
-      medication_status.belongsTo(models.user,{
-        foreignKey:'user_id',
-        onDelete:'SET NULL',
-        onUpdate:'SET NULL'
+      medication_status.belongsTo(models.user, {
+        foreignKey: 'user_id',
+        onDelete: 'SET NULL',
+        onUpdate: 'SET NULL'
       })
-      models.medication.hasMany(medication_status,{
-        foreignKey:'medication_id',
-        onDelete:'SET NULL',
-        onUpdate:'SET NULL'
+      models.medication.hasMany(medication_status, {
+        foreignKey: 'medication_id',
+        onDelete: 'SET NULL',
+        onUpdate: 'SET NULL'
       })
-      medication_status.belongsTo(models.medication,{
-        foreignKey:'medication_id',
-        onDelete:'SET NULL',
-        onUpdate:'SET NULL'
+      medication_status.belongsTo(models.medication, {
+        foreignKey: 'medication_id',
+        onDelete: 'SET NULL',
+        onUpdate: 'SET NULL'
       })
     }
   }
@@ -56,14 +56,18 @@ module.exports = (sequelize, DataTypes) => {
     },
     date: {
       type: DataTypes.DATE,
-      allowNull:false
+      allowNull: false
+    },
+    time: {
+      type: DataTypes.TIME,
+      allowNull: false
     },
     status: {
       type: DataTypes.BOOLEAN,
-      defaultValue:false
+      defaultValue: false
     },
     createdAt: {
-      defaultValue:DataTypes.NOW,
+      defaultValue: DataTypes.NOW,
       type: DataTypes.DATE
     },
     updatedAt: {

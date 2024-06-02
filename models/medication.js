@@ -12,13 +12,13 @@ module.exports = (sequelize, DataTypes) => {
     static associate(models) {
       models.user.hasMany(medication, {
         foreignKey: 'user_id',
-        onDelete:'SET NULL',
-        onUpate:'SET NULL',
+        onDelete: 'SET NULL',
+        onUpate: 'SET NULL',
       })
       medication.belongsTo(models.user, {
         foreignKey: 'user_id',
-        onDelete:'SET NULL',
-        onUpate:'SET NULL',
+        onDelete: 'SET NULL',
+        onUpate: 'SET NULL',
       })
     }
   }
@@ -63,8 +63,11 @@ module.exports = (sequelize, DataTypes) => {
     end_date: {
       type: DataTypes.DATE
     },
+    day: {
+      type: DataTypes.INTEGER,
+    },
     time: {
-      type: DataTypes.DATE,
+      type: DataTypes.TIME,
       allowNull: false
     },
     createdAt: {

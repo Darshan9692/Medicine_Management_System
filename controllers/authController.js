@@ -319,38 +319,26 @@ exports.getUsers = async (req, res, next) => {
     }
 }
 
-//create categories admin
-exports.addCategory = async (req, res, next) => {
+//send mail
+exports.sendMail = async () => {
     try {
+        let transporter = await nodemailer.createTransport({
+            host: 'smtp.gmail.com',
+            port: 587,
+            secure: false,
+            requireTLS: true,
+            auth: {
+                user: 'Darshanpanchal9292@gmail.com', //mailId of admin
+                pass: 'tzyutbeyqlcurvzx' //in the same email id generate custom password 
+            }
+        });
 
-        if (!req.body.category) return res.json("please enter category");
-
-        const category = await db.sequelize.models.category.create(req.body);
-
-        return res.json({
-            success: true,
-            msg: "Category created successfully"
-        })
-
-    } catch (error) {
-        logger.error(error)
-        return res.json({
-            success: false,
-            msg: "Internal server error"
-        })
-    }
-}
-
-//categories
-exports.getCategories = async (req, res, next) => {
-    try {
-
-        const categories = await db.sequelize.models.category.findAll();
-
-        return res.json({
-            success: true,
-            msg: JSON.parse(JSON.stringify(categories, null, 2))
-        })
+        const info = await transporter.sendMail({
+            from: 'Darshanpanchal9292@gmail.com', //Same email id used before
+            to: to,
+            subject: subject,
+            html: html,
+        });
 
     } catch (error) {
         logger.error(error)
