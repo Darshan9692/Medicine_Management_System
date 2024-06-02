@@ -1,0 +1,364 @@
+{"level":30,"time":"5:10:10 pm","pid":13508,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:10:24 pm","pid":21040,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":50,"time":"5:10:24 pm","pid":21040,"hostname":"LAPTOP-IKN8BARC","err":{"type":"AccessDeniedError","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)\n    at ConnectionManager.connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:94:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:457:5)","name":"SequelizeAccessDeniedError","parent":{"type":"Error","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"Error: Access denied for user 'root'@'localhost' (using password: NO)\n    at Packet.asError (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)\n    at PacketParser.executeStart (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:104:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)","code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"},"original":{"type":"Error","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"Error: Access denied for user 'root'@'localhost' (using password: NO)\n    at Packet.asError (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)\n    at PacketParser.executeStart (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:104:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)","code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}},"msg":"Access denied for user 'root'@'localhost' (using password: NO)"}
+{"level":30,"time":"5:10:35 pm","pid":14632,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":50,"time":"5:10:35 pm","pid":14632,"hostname":"LAPTOP-IKN8BARC","err":{"type":"AccessDeniedError","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"SequelizeAccessDeniedError: Access denied for user 'root'@'localhost' (using password: NO)\n    at ConnectionManager.connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:94:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:457:5)","name":"SequelizeAccessDeniedError","parent":{"type":"Error","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"Error: Access denied for user 'root'@'localhost' (using password: NO)\n    at Packet.asError (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)\n    at PacketParser.executeStart (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:104:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)","code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"},"original":{"type":"Error","message":"Access denied for user 'root'@'localhost' (using password: NO)","stack":"Error: Access denied for user 'root'@'localhost' (using password: NO)\n    at Packet.asError (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\packet.js:728:17)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:29:26)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)\n    at PacketParser.executeStart (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packet_parser.js:75:16)\n    at Socket.<anonymous> (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:104:25)\n    at Socket.emit (node:events:513:28)\n    at addChunk (node:internal/streams/readable:324:12)\n    at readableAddChunk (node:internal/streams/readable:297:9)\n    at Readable.push (node:internal/streams/readable:234:10)","code":"ER_ACCESS_DENIED_ERROR","errno":1045,"sqlState":"28000","sqlMessage":"Access denied for user 'root'@'localhost' (using password: NO)"}},"msg":"Access denied for user 'root'@'localhost' (using password: NO)"}
+{"level":30,"time":"5:10:39 pm","pid":9512,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":50,"time":"5:10:39 pm","pid":9512,"hostname":"LAPTOP-IKN8BARC","err":{"type":"ConnectionError","message":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)","stack":"SequelizeConnectionError: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)\n    at ConnectionManager.connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\mysql\\connection-manager.js:102:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async ConnectionManager._connect (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:222:24)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:174:32\n    at async ConnectionManager.getConnection (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\dialects\\abstract\\connection-manager.js:197:7)\n    at async C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:305:26\n    at async Sequelize.authenticate (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\sequelize\\lib\\sequelize.js:457:5)","name":"SequelizeConnectionError","parent":{"type":"TypeError","message":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)\n    at new NodeError (node:internal/errors:399:5)\n    at Hash.update (node:internal/crypto/hash:109:11)\n    at sha1 (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\auth_41.js:31:8)\n    at Object.token [as calculateToken] (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\auth_41.js:57:18)\n    at new HandshakeResponse (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\handshake_response.js:28:26)\n    at ClientHandshake.sendCredentials (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\client_handshake.js:71:31)\n    at ClientHandshake.handshakeInit (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\client_handshake.js:162:12)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:45:22)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)","code":"ERR_INVALID_ARG_TYPE","fatal":true},"original":{"type":"TypeError","message":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)","stack":"TypeError [ERR_INVALID_ARG_TYPE]: The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)\n    at new NodeError (node:internal/errors:399:5)\n    at Hash.update (node:internal/crypto/hash:109:11)\n    at sha1 (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\auth_41.js:31:8)\n    at Object.token [as calculateToken] (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\auth_41.js:57:18)\n    at new HandshakeResponse (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\packets\\handshake_response.js:28:26)\n    at ClientHandshake.sendCredentials (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\client_handshake.js:71:31)\n    at ClientHandshake.handshakeInit (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\client_handshake.js:162:12)\n    at ClientHandshake.execute (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\commands\\command.js:45:22)\n    at Connection.handlePacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:481:34)\n    at PacketParser.onPacket (C:\\Users\\Darsh\\Big Project\\Medicine_Management_System\\node_modules\\mysql2\\lib\\connection.js:97:12)","code":"ERR_INVALID_ARG_TYPE","fatal":true}},"msg":"The \"data\" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received type number (9692)"}
+{"level":30,"time":"5:10:44 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:10:44 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:10:44 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:14:01 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:14:01 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:14:01 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:14:11 pm","pid":3452,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:14:11 pm","pid":3452,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:14:11 pm","pid":3452,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:16:12 pm","pid":19800,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:16:12 pm","pid":19800,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:16:12 pm","pid":19800,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:16:16 pm","pid":16776,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:16:16 pm","pid":16776,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:16:16 pm","pid":16776,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:16:23 pm","pid":2356,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:16:23 pm","pid":2356,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:16:23 pm","pid":2356,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:48:38 pm","pid":8808,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:48:38 pm","pid":8808,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:48:38 pm","pid":8808,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:49:56 pm","pid":8920,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:49:56 pm","pid":8920,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:49:56 pm","pid":8920,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:50:07 pm","pid":11340,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:50:07 pm","pid":11340,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:50:07 pm","pid":11340,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:50:15 pm","pid":21520,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:50:15 pm","pid":21520,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:50:15 pm","pid":21520,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:51:12 pm","pid":17612,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:51:12 pm","pid":17612,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:51:12 pm","pid":17612,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:51:13 pm","pid":23592,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:51:13 pm","pid":23592,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:51:13 pm","pid":23592,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:51:42 pm","pid":9768,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:51:42 pm","pid":9768,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:51:42 pm","pid":9768,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:51:57 pm","pid":2960,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:51:57 pm","pid":2960,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:51:57 pm","pid":2960,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:52:04 pm","pid":2036,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:52:04 pm","pid":2036,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:52:04 pm","pid":2036,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:52:15 pm","pid":10884,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:52:15 pm","pid":10884,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:52:15 pm","pid":10884,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:52:17 pm","pid":19128,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:52:18 pm","pid":19128,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:52:18 pm","pid":19128,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:56:36 pm","pid":13164,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:56:36 pm","pid":13164,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:56:36 pm","pid":13164,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:56:56 pm","pid":7988,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:56:56 pm","pid":7988,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:56:56 pm","pid":7988,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:57:05 pm","pid":24224,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:57:05 pm","pid":24224,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:57:05 pm","pid":24224,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:57:35 pm","pid":23656,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:57:35 pm","pid":23656,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:57:35 pm","pid":23656,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:57:42 pm","pid":10036,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:57:42 pm","pid":10036,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:57:42 pm","pid":10036,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:58:17 pm","pid":8772,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:58:17 pm","pid":8772,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:58:17 pm","pid":8772,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:58:20 pm","pid":19556,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:58:20 pm","pid":19556,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:58:20 pm","pid":19556,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:58:42 pm","pid":22304,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:58:42 pm","pid":22304,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:58:42 pm","pid":22304,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:59:06 pm","pid":15980,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:59:06 pm","pid":15980,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:59:06 pm","pid":15980,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:59:16 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:59:17 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:59:17 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:59:25 pm","pid":24232,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:59:25 pm","pid":24232,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:59:25 pm","pid":24232,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"5:59:47 pm","pid":19124,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"5:59:47 pm","pid":19124,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"5:59:47 pm","pid":19124,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:00:00 pm","pid":22056,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:00:00 pm","pid":22056,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:00:00 pm","pid":22056,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:01:13 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:01:13 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:01:13 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:01:27 pm","pid":22636,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:01:27 pm","pid":22636,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:01:27 pm","pid":22636,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:01:36 pm","pid":15940,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:01:36 pm","pid":15940,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:01:36 pm","pid":15940,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:01:40 pm","pid":1668,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:01:40 pm","pid":1668,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:01:40 pm","pid":1668,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:05:18 pm","pid":15468,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:05:18 pm","pid":15468,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:05:18 pm","pid":15468,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:05:59 pm","pid":18808,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:06:00 pm","pid":18808,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:06:00 pm","pid":18808,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:06:02 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:06:02 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:06:02 pm","pid":16948,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"6:06:09 pm","pid":1616,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"6:06:09 pm","pid":1616,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"6:06:09 pm","pid":1616,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:26:51 pm","pid":7452,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:26:51 pm","pid":7452,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:26:51 pm","pid":7452,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:26:54 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:26:54 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:26:54 pm","pid":16404,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:26:56 pm","pid":25516,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:26:56 pm","pid":25516,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:26:56 pm","pid":25516,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:27:02 pm","pid":24800,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:27:02 pm","pid":24800,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:27:02 pm","pid":24800,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:27:24 pm","pid":23784,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:27:24 pm","pid":23784,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:27:24 pm","pid":23784,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:28:13 pm","pid":25676,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:28:13 pm","pid":25676,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:28:13 pm","pid":25676,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:28:33 pm","pid":16408,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:28:33 pm","pid":16408,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:28:33 pm","pid":16408,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:29:58 pm","pid":9404,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:29:58 pm","pid":9404,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:29:58 pm","pid":9404,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:30:32 pm","pid":1880,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:30:32 pm","pid":1880,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:30:32 pm","pid":1880,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:31:19 pm","pid":25576,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:31:19 pm","pid":25576,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:31:19 pm","pid":25576,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:33:16 pm","pid":16312,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:33:16 pm","pid":16312,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:33:16 pm","pid":16312,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:33:25 pm","pid":1492,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:33:25 pm","pid":1492,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:33:25 pm","pid":1492,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:33:33 pm","pid":23556,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:33:33 pm","pid":23556,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:33:33 pm","pid":23556,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:41:31 pm","pid":20052,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:41:31 pm","pid":20052,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:41:31 pm","pid":20052,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:43:38 pm","pid":18276,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:43:38 pm","pid":18276,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:43:38 pm","pid":18276,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:43:39 pm","pid":26028,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:43:39 pm","pid":26028,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:43:39 pm","pid":26028,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:44:54 pm","pid":12012,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:44:54 pm","pid":12012,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:44:54 pm","pid":12012,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"8:44:59 pm","pid":10712,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"8:44:59 pm","pid":10712,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"8:44:59 pm","pid":10712,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:08:21 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:08:21 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:08:21 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:08:45 pm","pid":8656,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:08:45 pm","pid":8656,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:08:45 pm","pid":8656,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:08:50 pm","pid":6092,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:08:50 pm","pid":6092,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:08:50 pm","pid":6092,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:08:55 pm","pid":16132,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:08:55 pm","pid":16132,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:08:55 pm","pid":16132,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:09:02 pm","pid":2884,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:09:02 pm","pid":2884,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:09:02 pm","pid":2884,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:09:36 pm","pid":16072,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:09:36 pm","pid":16072,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:09:36 pm","pid":16072,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:09:37 pm","pid":19776,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:09:37 pm","pid":19776,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:09:37 pm","pid":19776,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:09:48 pm","pid":17692,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:09:48 pm","pid":17692,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:09:48 pm","pid":17692,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:09:57 pm","pid":24392,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:09:57 pm","pid":24392,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:09:57 pm","pid":24392,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:10:03 pm","pid":25764,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:10:03 pm","pid":25764,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:10:03 pm","pid":25764,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:10:20 pm","pid":18540,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:10:20 pm","pid":18540,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:10:20 pm","pid":18540,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:10:22 pm","pid":15140,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:10:22 pm","pid":15140,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:10:22 pm","pid":15140,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:10:25 pm","pid":15220,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:10:25 pm","pid":15220,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:10:25 pm","pid":15220,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:10:47 pm","pid":13808,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:10:47 pm","pid":13808,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:10:47 pm","pid":13808,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:11:31 pm","pid":21256,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:11:31 pm","pid":21256,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:11:31 pm","pid":21256,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:11:38 pm","pid":21592,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:11:38 pm","pid":21592,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:11:38 pm","pid":21592,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:11:39 pm","pid":6596,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:11:39 pm","pid":6596,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:11:39 pm","pid":6596,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:12:02 pm","pid":26396,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:12:02 pm","pid":26396,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:12:02 pm","pid":26396,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:12:03 pm","pid":16584,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:12:03 pm","pid":16584,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:12:03 pm","pid":16584,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:12:05 pm","pid":16348,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:12:06 pm","pid":16348,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:12:06 pm","pid":16348,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:12:17 pm","pid":17652,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:12:17 pm","pid":17652,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:12:17 pm","pid":17652,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:12:18 pm","pid":5668,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:12:18 pm","pid":5668,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:12:18 pm","pid":5668,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:13:08 pm","pid":26388,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:13:08 pm","pid":26388,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:13:08 pm","pid":26388,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:13:41 pm","pid":22816,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:13:41 pm","pid":22816,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:13:41 pm","pid":22816,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:15:11 pm","pid":18032,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:15:11 pm","pid":18032,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:15:11 pm","pid":18032,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:15:30 pm","pid":16316,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:15:30 pm","pid":16316,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:15:30 pm","pid":16316,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:15:38 pm","pid":22856,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:15:38 pm","pid":22856,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:15:38 pm","pid":22856,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:17:47 pm","pid":2820,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:17:47 pm","pid":2820,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:17:47 pm","pid":2820,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:17:52 pm","pid":2932,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:17:52 pm","pid":2932,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:17:52 pm","pid":2932,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:18:02 pm","pid":24136,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:18:02 pm","pid":24136,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:18:02 pm","pid":24136,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:18:17 pm","pid":25032,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:18:17 pm","pid":25032,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:18:17 pm","pid":25032,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:21:40 pm","pid":5816,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:21:40 pm","pid":5816,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:21:40 pm","pid":5816,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:22:03 pm","pid":25152,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:22:03 pm","pid":25152,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:22:03 pm","pid":25152,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:22:20 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:22:20 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:22:20 pm","pid":12348,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:22:22 pm","pid":12892,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:22:22 pm","pid":12892,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:22:22 pm","pid":12892,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:22:32 pm","pid":22468,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:22:32 pm","pid":22468,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:22:32 pm","pid":22468,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:22:50 pm","pid":23576,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:22:50 pm","pid":23576,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:22:50 pm","pid":23576,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:23:04 pm","pid":21332,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:23:04 pm","pid":21332,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:23:04 pm","pid":21332,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:23:06 pm","pid":4200,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:23:06 pm","pid":4200,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:23:06 pm","pid":4200,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:23:37 pm","pid":15264,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:23:37 pm","pid":15264,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:23:37 pm","pid":15264,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:05 pm","pid":20280,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:05 pm","pid":20280,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:05 pm","pid":20280,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:24 pm","pid":10392,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:24 pm","pid":10392,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:24 pm","pid":10392,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:30 pm","pid":12368,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:30 pm","pid":12368,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:30 pm","pid":12368,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:42 pm","pid":23768,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:42 pm","pid":23768,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:42 pm","pid":23768,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:46 pm","pid":24708,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:46 pm","pid":24708,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:46 pm","pid":24708,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:24:56 pm","pid":25828,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:24:56 pm","pid":25828,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:24:56 pm","pid":25828,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:01 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:01 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:01 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:09 pm","pid":12672,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:09 pm","pid":12672,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:09 pm","pid":12672,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:12 pm","pid":18852,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:12 pm","pid":18852,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:12 pm","pid":18852,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:19 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:19 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:19 pm","pid":2428,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:26 pm","pid":26056,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:26 pm","pid":26056,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:26 pm","pid":26056,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:25:48 pm","pid":9472,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:25:48 pm","pid":9472,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:25:48 pm","pid":9472,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:27:27 pm","pid":164,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:27:27 pm","pid":164,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:27:27 pm","pid":164,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:27:42 pm","pid":20140,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:27:42 pm","pid":20140,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:27:42 pm","pid":20140,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:27:49 pm","pid":19688,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:27:49 pm","pid":19688,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:27:49 pm","pid":19688,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:27:55 pm","pid":10256,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:27:55 pm","pid":10256,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:27:55 pm","pid":10256,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:28:03 pm","pid":25968,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:28:03 pm","pid":25968,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:28:03 pm","pid":25968,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:28:17 pm","pid":24880,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:28:17 pm","pid":24880,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:28:17 pm","pid":24880,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:28:19 pm","pid":5676,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:28:19 pm","pid":5676,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:28:19 pm","pid":5676,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:28:46 pm","pid":25396,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:28:46 pm","pid":25396,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:28:46 pm","pid":25396,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:28:52 pm","pid":15320,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:28:52 pm","pid":15320,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:28:52 pm","pid":15320,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:29:26 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:29:26 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:29:26 pm","pid":24460,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
