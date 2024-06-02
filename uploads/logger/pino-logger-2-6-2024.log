@@ -362,3 +362,6 @@
 {"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
 {"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
 {"level":30,"time":"9:29:29 pm","pid":10068,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
+{"level":30,"time":"9:33:20 pm","pid":8120,"hostname":"LAPTOP-IKN8BARC","msg":"server is running on port: http://localhost:8000"}
+{"level":30,"time":"9:33:20 pm","pid":8120,"hostname":"LAPTOP-IKN8BARC","msg":"Executing (default): SELECT 1+1 AS result"}
+{"level":30,"time":"9:33:20 pm","pid":8120,"hostname":"LAPTOP-IKN8BARC","msg":"DB connected"}
