@@ -56,62 +56,77 @@ exports.register = async (req, res, next) => {
 //login
 exports.login = async (req, res, next) => {
     try {
+        // Check for null values in the request body
+        const nullValues = Object.keys(req.body).filter((key) => !req.body[key]);
+        if (nullValues.length > 0) {
+            return res.json(`Please fill these values: ${nullValues.join(",")}`);
+        }
 
-        const nullValues = Object.keys(req.body).filter((e) => { return !req.body[e] });
-
-        if (nullValues.length > 0) return res.json(`Please fill this values : ${nullValues.join(",")}`);
-
+        // Find user by email
         const user = await db.sequelize.models.user.findOne({
             where: {
                 email: req.body.email,
                 deletedAt: null
             }
-        })
+        });
 
-        if (!user) return res.json("Invalid email or password");
-
-        const passwordValidated = await bcrypt.compare(req.body.password, user.password);
-
-        if (!passwordValidated) {
-            const login_attempt = await db.sequelize.models.login_attempt.create({
-                user_id: user.id,
-                status: 0
-            })
+        if (!user) {
             return res.json("Invalid email or password");
         }
 
+        // Validate password
+        const passwordValidated = await bcrypt.compare(req.body.password, user.password);
+        if (!passwordValidated) {
+            await db.sequelize.models.login_attempt.create({
+                user_id: user.id,
+                status: 0
+            });
+            return res.json("Invalid email or password");
+        }
+
+        // Generate JWT token
         const payload = {
             id: user.id,
             email: user.email,
             role_id: user.role_id
-        }
-
+        };
         const token = jwt.sign(payload, process.env.JWT_SECRET, {
             expiresIn: process.env.JWT_EXPIRES
         });
 
-        const device_name = await db.sequelize.models.create({
-            user_id: req.user.id,
-            device_name: req.body.device_name,
-            is_loggedIn: true
-        })
+        // Check if the device is already registered
+        const [device, created] = await db.sequelize.models.user_device.findOrCreate({
+            where: {
+                user_id: user.id,
+                device_name: req.body.device_name
+            },
+            defaults: {
+                is_loggedIn: true
+            }
+        });
 
+        if (!created) {
+            await device.update({ is_loggedIn: true });
+        }
+
+        // Set cookie and return response
         return res.cookie("token", token, {
-            maxAge: 4 * 24 * 60 * 60 * 1000,
+            maxAge: 4 * 24 * 60 * 60 * 1000, // 4 days
             httpOnly: true,
         }).json({
             success: true,
-            msg: "logged in successfully"
-        })
+            msg: "Logged in successfully"
+        });
 
     } catch (error) {
         logger.error(error);
-        return res.json({
+        return res.status(500).json({
             success: false,
             msg: "Internal server error"
-        })
+        });
     }
-}
+};
+
 
 //logout
 exports.logout = async (req, res, next) => {
@@ -119,7 +134,7 @@ exports.logout = async (req, res, next) => {
 
         const logged_out = await db.sequelize.models.user_device.update({ is_loggedIn: false }, {
             where: {
-                id: req.user.id
+                user_id: req.user.id
             }
         })
 
